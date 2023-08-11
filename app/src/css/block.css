@@ -1,0 +1,61 @@
+#bl {
+    width: 100%;
+    border-radius: 12px;
+    padding: 6px 12px;
+}
+
+.bbox {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.226);
+    border-radius: 12px;
+    padding: 18px 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poo {
+    height: 40px;
+}
+
+.item p {
+    font-size: 24px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.row1 {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row1 p {
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.row2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2 h3 {
+    width: 150px;
+    text-align: center;
+}   
+
+.row2 p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 150px;
+    text-align: center;
+}
